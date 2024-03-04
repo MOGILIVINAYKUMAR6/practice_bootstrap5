@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Me using bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="Background">Link</a>
+            </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="Education">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Work Experience">Link</a>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="Co-Curricular Activities">Link</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact Me">Link</a>
+            </li>
+          </ul>
+          <!-- About me Page information-->
+          <div class="container-fluid mt-3">
+            <section id="Background" class mt-4>
+              <h1>Overview</h1>
+              <p>I'm a graduate student at Kent state University. I enjoy reading News paper, reading bookd of fictional kind, and I'm passionate about computer science.</p>
+            </section>
+            <section id="Education" class mt-4>
+              <h1>Education</h1>
+              <p>In July 2015, I enrolled in a 6-year Integrated Bachelor of Technology in Electrical and
+                Electronics Engineering, Rajiv Gandhi University of Knowledge Technologies-BASAR, which
+                allowed me to gain hands-on experience and practical knowledge on few courses namely
+                Microprocessors and Microcontrollers, Electronic Circuits, Power Electronics, Linear Control
+                Systems Engineering, Power Systems, Network Theory under the graduation program of which
+                the last two are my favorite.</p>
+            </section>
+            <section id="Work Experience" class mt-4>
+              <h1>Work Experience</h1>
+              <p class="text-muted"></p>
+              <p>In March 2020, I joined Tata Consultancy Services as System Engineer, working in a
+                functional testing team. In this position, I am entrusted to look after the testing phase of the
+                software development process to ensure the final product meets the organization's quality
+                standards. Here, I got an opportunity to constantly engage with clients to understand their
+                requirements and thereby assist the team in achieving the desired outcome. Since it was my first
+                full-time position, initially, I faced certain challenges, as starting a career in a fast-paced
+                organization like ours with short sprints is quite challenging. But I quickly adapted, and through
+                teamwork, and learned the required skills for which I received appreciation from my peers and
+                mentors. All these experiences have crafted me as a better individual with a lot of enlivening
+                spirit to realize my dreams and develop a well-rounded personality..</p>
+            </section>
+            <section id="Co-Curricular Activities" class mt-4>
+              <h1>Co-Curricular Activities</h1>
+              <p>With a zeal to develop my overall personality, I ensured to participate in co-curricular activities
+                right from my school years. I hold the prestigious National Cadet Corps 'A' Grade Certificate. I
+                learnt unity, discipline, leadership, and teamwork by being a part of NCC. During under
+                graduation, with my leadership skills, I was elected to be a founding member of Student
+                Governing Council, RGUKT-Basar, through these I strengthened the council by organizing
+                various counselling programs on prevention of Ragging and Eve-Teasing for the well-being of
+                the student's community.</p>
+            </section>
+            <section id="Contact Me" class mt-4>
+              <h1>Contact Me</h1>
+              <p>You can reach me at vmogili@kent.edu</p>
+            </section>
+
+          </div>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j4Avf/EWbK0iL+wb35A0BAs05bRIj1rNX6Lkuy1zO92qwfNzfzBfIalhqT1YXQP8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
